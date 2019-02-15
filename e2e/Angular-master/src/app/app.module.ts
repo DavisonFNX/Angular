@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {HttpClientModule} from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -50,8 +49,7 @@ import { FormPodcastsComponent } from './form-podcasts/form-podcasts.component';
     MatPaginatorModule,
     MatSortModule,
     MatGridListModule,
-    MatMenuModule,
-    HttpClientModule
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
